@@ -10,6 +10,9 @@ import TradeAnywhereSection from './components/TradeAnywhereSection.jsx'
 import PricingSection from './components/pricing.jsx'
 import MeetFIASection from './components/meet-fia.jsx'
 import TrustSection from './components/trustSection.jsx'
+import DataSection from './components/dataSection.jsx'
+import FaqSection from './components/faqSection.jsx'
+import Footer from './components/footerSection.jsx'
 
 function App() {  
 
@@ -24,6 +27,9 @@ function App() {
           <PricingSection />
           <MeetFIASection />
           <TrustSection />
+          <DataSection />
+          <FaqSection />
+          <Footer />
           
       </div>
 

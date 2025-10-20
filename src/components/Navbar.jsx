@@ -7,9 +7,9 @@ export default function Navbar() {
   return (
     <nav className="bg-[#182BFF] fixed top-0 left-0 right-0 z-50 h-[72px]">
       {/* Centered container with asymmetric padding so logo+menu sit slightly more left */}
-      <div className="w-full max-w-[1440px] mx-auto pl-2 pr-4 sm:pl-4 sm:pr-12 lg:-pl-2 lg:pr-6 h-full flex items-center justify-between">
+       <div className="w-full max-w-[1440px] mx-auto px-3 sm:px-6 lg:px-8 h-full flex items-center justify-between">
         {/* Left group: logo + menu (keeps items together, won't shrink) */}
-        <div className="flex items-center gap-8 sm:gap-16  xl:-ml-20  flex-shrink-0">
+        <div className="flex items-center gap-8 sm:gap-16  xl:-ml-36  flex-shrink-0">
           <img src={FyersLogo} alt="Fyers" className="h-8 object-contain" />
 
           <div className="hidden md:flex items-center gap-4 sm:gap-6 lg:gap-8 whitespace-nowrap">
@@ -50,7 +50,7 @@ export default function Navbar() {
         {/* Right group: login / signup / hamburger */}
         <div className="flex items-center gap-2 sm:gap-4 flex-shrink-0 2xl:-mr-20">
           <button className="hidden md:block bg-[#182BFF] hover:bg-[#4352f1] text-white px-4 py-1 border border-white">Login</button>
-          <button className="hidden md:block bg-[#F5FF0A] hover:bg-[#eef193] text-black px-4 py-1 rounded">Sign Up</button>
+          <button className="hidden md:block bg-[#F5FF0A] hover:bg-[#eef193] text-black px-4 py-1 ">Sign Up</button>
           <button className="md:hidden p-2" onClick={() => setMenuOpen(v => !v)}>
             <span className="block w-6 h-1 bg-white mb-1"></span>
             <span className="block w-6 h-1 bg-white mb-1"></span>
