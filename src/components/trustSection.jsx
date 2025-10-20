@@ -196,7 +196,7 @@ export default function TrustSection() {
                       <img
                         src={ring}
                         alt="ring"
-                        className="h-20 w-32 md:h-[140px] md:w-[270px] absolute top-2 md:top-2 -left-2 md:-left-1"
+                        className=" h-24 w-32 xs:h-24 xs:w-48 md:h-28 md:w-56 lg:h-[135px] lg:w-[400px] absolute top-2 md:top-2 -left-2 md:-left-1"
                       />
                       <span className="block text-[#F5FF0A] text-xl md:text-2xl lg:text-3xl font-bold leading-tight relative z-10">
                         Best <br /> Broker in <br /> South Asia <br /> 2024
